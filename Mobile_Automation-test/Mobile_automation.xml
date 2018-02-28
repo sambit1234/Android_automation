@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+    
+    
+    <listeners>
+ 
+<listener class-name="org.uncommons.reportng.HTMLReporter" />
+ 
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+ 
+</listeners>
+
+  <test verbose="2" name="Sapphire test">
+      
+    <classes>
+       
+      <class name="Mob_test.Login"/>
+      <class name="Sprint3.Offline"/>
+      <class name="Sprint3.ContactUs"/>
+      
+     
+      
+      
+    </classes>
+    
+  </test> <!-- Default test -->
+  
+</suite> <!-- Default suite -->
+
+
+            

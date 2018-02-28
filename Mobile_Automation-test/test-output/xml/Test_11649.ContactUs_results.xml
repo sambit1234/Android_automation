@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="3"
+           failures="1"
+           errors="0"
+           skipped="2"
+           time="27.622">
+  <properties />
+            <testcase name="startApp" time="27.622" classname="Test_11649.ContactUs">
+                <failure type="org.openqa.selenium.SessionNotCreatedException"
+                  message="A new session could not be created. (Original error: Could not find a connected Android device.) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;MUVI-PC&apos;, ip: &apos;169.254.138.145&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: driver.version: AndroidDriver"
+              >
+<![CDATA[org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Could not find a connected Android device.) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MUVI-PC', ip: '169.254.138.145', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
+Driver info: driver.version: AndroidDriver
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+  io.appium.java_client.remote.AppiumProtocolHandShake.createSession(AppiumProtocolHandShake.java:160)
+  io.appium.java_client.remote.AppiumProtocolHandShake.createSession(AppiumProtocolHandShake.java:75)
+  io.appium.java_client.remote.AppiumCommandExecutor.doExecute(AppiumCommandExecutor.java:111)
+  io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:162)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+  io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+  io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+  io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+  org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+  org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+  org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+  io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+  io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+  io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:112)
+  io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:73)
+  Test_11649.ContactUs.startApp(ContactUs.java:50)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+  org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:165)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+  org.testng.TestRunner.privateRun(TestRunner.java:776)
+  org.testng.TestRunner.run(TestRunner.java:634)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+  org.testng.SuiteRunner.run(SuiteRunner.java:334)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+  org.testng.TestNG.runSuites(TestNG.java:1161)
+  org.testng.TestNG.run(TestNG.java:1129)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="Logout_Quit" time="0.0" classname="Test_11649.ContactUs">
+          <skipped />
+    </testcase>
+            <testcase name="Contact_Us" time="0.0" classname="Test_11649.ContactUs">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
